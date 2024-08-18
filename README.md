@@ -25,6 +25,19 @@ scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r /U
 scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r /Users/zhonganqing/Downloads/ansible_core-2.17.3.tar itzuser@162.133.113.15:
 ```
 <img width="1172" alt="截圖 2024-08-18 下午5 45 35" src="https://github.com/user-attachments/assets/2bce07f7-e3ae-4c80-b77c-3868b695cf5b">
+<img width="1157" alt="截圖 2024-08-18 下午5 49 11" src="https://github.com/user-attachments/assets/2ea7b1c0-361f-4308-837d-d9963369e09b">
+
+### 解壓縮檔案：
+```tar -xf /home/itzuser/pip-24.2.tar```
+<img width="873" alt="截圖 2024-08-18 下午5 54 22" src="https://github.com/user-attachments/assets/8d5be817-e221-4154-8575-43d7113136f1">
+
+### 進入解壓後的目錄：
+```cd pip-24.2```
+
+python3 setup.py install
+
+### 驗證安裝：
+
 
 
 
