@@ -15,9 +15,9 @@ yum download python3
 
 ### 連網路安裝python3
 <img width="1175" alt="截圖 2024-08-18 晚上9 04 49" src="https://github.com/user-attachments/assets/7f868b02-9913-4f3d-8cc8-e8bc7d5e0045">
-python36                 x86_64      3.6.8-39.module+el8.10.0+20784+edafcd43         rhel-8-for-x86_64-appstream-rpms       20 k
- platform-python-pip      noarch      9.0.3-24.el8                                    rhel-8-for-x86_64-baseos-rpms         1.6 M
- python3-pip              noarch      9.0.3-24.el8                                    rhel-8-for-x86_64-appstream-rpms       20 k
+python36                 x86_64      3.6.8-39.module+el8.10.0+20784+edafcd43         rhel-8-for-x86_64-appstream-rpms       20 k  
+platform-python-pip      noarch      9.0.3-24.el8                                    rhel-8-for-x86_64-baseos-rpms         1.6 M  
+python3-pip              noarch      9.0.3-24.el8                                    rhel-8-for-x86_64-appstream-rpms       20 k  
 
 
 ### 把安裝檔案傳到本機，準備好套件：**
