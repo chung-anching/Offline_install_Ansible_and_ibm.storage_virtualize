@@ -9,7 +9,8 @@ Offline install Ansible and ibm.storage_virtualize
 先找有網路的VM做：
 ```
 sudo yum install epel-release
-yum download python3
+sudo yum download python3
+sudo yum download python36
 ```
 <img width="1133" alt="截圖 2024-08-18 下午6 05 01" src="https://github.com/user-attachments/assets/7a74fcec-12fc-4def-a4d0-1d4260fbde6f">
 
@@ -31,9 +32,10 @@ scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r it
 sudo rpm -Uvh platform-python-pip-9.0.3-24.el8.noarch.rpm  
 一次裝才不會有錯：  
 sudo rpm -Uvh python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm python3-pip-9.0.3-24.el8.noarch.rpm
-~~sudo rpm -Uvh python3-pip-9.0.3-24.el8.noarch.rpm~~
-~~sudo rpm -Uvh python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm~~
+~~sudo rpm -Uvh python3-pip-9.0.3-24.el8.noarch.rpm~~  
+~~sudo rpm -Uvh python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm~~  
 sudo rpm -Uvh python3-setuptools-39.2.0-7.el8.noarch.rpm
+python3 --version
 ```
 <img width="1174" alt="截圖 2024-08-18 晚上10 16 00" src="https://github.com/user-attachments/assets/73cf3e61-ce8f-410b-b1fa-e9cebd50fbf2">
 
@@ -41,7 +43,7 @@ sudo rpm -Uvh python3-setuptools-39.2.0-7.el8.noarch.rpm
 
 ### 安裝pip
 1.Go to https://pypi.org/project/pip/#files  
-2.Download and extract the archive file.  
+2.Download and extract the archive file. 
 3.Run **python setup.py install**  
 <img width="1611" alt="截圖 2024-08-18 下午5 32 16" src="https://github.com/user-attachments/assets/71d47e77-3215-40ed-a2a5-414e07144b13">  
 
