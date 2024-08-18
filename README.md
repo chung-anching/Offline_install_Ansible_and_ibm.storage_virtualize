@@ -24,6 +24,8 @@ https://pypi.org/project/ansible-core/#files
 scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r /Users/zhonganqing/Downloads/pip-24.2.tar itzuser@162.133.113.15:
 scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r /Users/zhonganqing/Downloads/ansible_core-2.17.3.tar itzuser@162.133.113.15:
 ```
+<img width="1172" alt="截圖 2024-08-18 下午5 45 35" src="https://github.com/user-attachments/assets/2bce07f7-e3ae-4c80-b77c-3868b695cf5b">
+
 
 
 https://www.rpmfind.net/linux/rpm2html/search.php?query=ansible
