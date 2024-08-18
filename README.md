@@ -62,6 +62,8 @@ https://pypi.org/project/ansible-core/#files
 ```pip install ansible-core```
 <img width="1611" alt="截圖 2024-08-18 下午5 28 54" src="https://github.com/user-attachments/assets/347f11a1-ed8f-4832-aa50-1eac3af11006">
 
+
+
 ### 上傳檔案：
 ```
 scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r /Users/zhonganqing/Downloads/pip-24.2.tar itzuser@162.133.113.15:
