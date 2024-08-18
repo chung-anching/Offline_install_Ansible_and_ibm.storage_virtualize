@@ -36,7 +36,7 @@ sudo rpm -Uvh python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm python
 ~~sudo rpm -Uvh python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm~~  
 sudo rpm -Uvh python3-setuptools-39.2.0-7.el8.noarch.rpm
 python3 --version
-```
+
 <img width="1174" alt="截圖 2024-08-18 晚上10 16 00" src="https://github.com/user-attachments/assets/73cf3e61-ce8f-410b-b1fa-e9cebd50fbf2">
 
 
