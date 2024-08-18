@@ -28,7 +28,7 @@ scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r it
 ```
 
 ### 安裝python3
-sudo rpm -Uvh platform-python-pip-9.0.3-24.el8.noarch.rpm
+sudo rpm -Uvh platform-python-pip-9.0.3-24.el8.noarch.rpm  
 一次裝才不會有錯：  
 sudo rpm -Uvh python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm python3-pip-9.0.3-24.el8.noarch.rpm
 ~~sudo rpm -Uvh python3-pip-9.0.3-24.el8.noarch.rpm~~
