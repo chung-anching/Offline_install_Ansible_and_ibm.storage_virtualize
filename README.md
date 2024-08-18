@@ -4,7 +4,7 @@ Offline install Ansible and ibm.storage_virtualize
 ```ssh itzuser@162.133.113.15 -p 2223 -i pem_ibmcloudvsi_download-2.pem```
 <img width="1158" alt="截圖 2024-08-18 下午5 24 34" src="https://github.com/user-attachments/assets/adb44283-cc73-4a75-ada2-477c5821af14">
 
-### 安裝python
+### 安裝python（失敗）：
 先找有網路的VM做：
 ```
 sudo yum install epel-release
@@ -12,21 +12,33 @@ yum download python3
 ```
 <img width="1133" alt="截圖 2024-08-18 下午6 05 01" src="https://github.com/user-attachments/assets/7a74fcec-12fc-4def-a4d0-1d4260fbde6f">
 
-### 安裝python3
+### 連網路安裝python3
 <img width="1175" alt="截圖 2024-08-18 晚上9 04 49" src="https://github.com/user-attachments/assets/7f868b02-9913-4f3d-8cc8-e8bc7d5e0045">
+python36                 x86_64      3.6.8-39.module+el8.10.0+20784+edafcd43         rhel-8-for-x86_64-appstream-rpms       20 k
+ platform-python-pip      noarch      9.0.3-24.el8                                    rhel-8-for-x86_64-baseos-rpms         1.6 M
+ python3-pip              noarch      9.0.3-24.el8                                    rhel-8-for-x86_64-appstream-rpms       20 k
 
 
-### 把python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm傳到本機，準備好套件：**
+### 把安裝檔案傳到本機，準備好套件：**
 ```
 scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r itzuser@162.133.113.15:/home/itzuser/pip-24.2/python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm /Users/zhonganqing/Downloads
 scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r itzuser@162.133.113.15:/home/itzuser/pip-24.2/python3-pip-9.0.3-24.el8.noarch.rpm /Users/zhonganqing/Downloads
 scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r itzuser@162.133.113.15:/home/itzuser/pip-24.2/python3-setuptools-39.2.0-7.el8.noarch.rpm /Users/zhonganqing/Downloads
+scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r itzuser@162.133.113.15:/home/itzuser/pip-24.2/platform-python-pip-9.0.3-24.el8.noarch.rpm /Users/zhonganqing/Downloads
 ```
 <img width="1176" alt="截圖 2024-08-18 下午6 10 02" src="https://github.com/user-attachments/assets/827377f2-9628-4943-bbea-57161e9f5455">
+```
 
-sudo rpm -Uvh python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm
+### 安裝python3
+sudo rpm -Uvh platform-python-pip-9.0.3-24.el8.noarch.rpm
+一次裝才不會有錯：  
+sudo rpm -Uvh python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm python3-pip-9.0.3-24.el8.noarch.rpm
+~~sudo rpm -Uvh python3-pip-9.0.3-24.el8.noarch.rpm~~
+~~sudo rpm -Uvh python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm~~
 sudo rpm -Uvh python3-setuptools-39.2.0-7.el8.noarch.rpm
-sudo rpm -Uvh python3-pip-9.0.3-24.el8.noarch.rpm
+```
+<img width="1174" alt="截圖 2024-08-18 晚上10 16 00" src="https://github.com/user-attachments/assets/73cf3e61-ce8f-410b-b1fa-e9cebd50fbf2">
+
 
 
 ### 安裝pip
