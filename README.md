@@ -4,6 +4,18 @@ Offline install Ansible and ibm.storage_virtualize
 ```ssh itzuser@162.133.113.15 -p 2223 -i pem_ibmcloudvsi_download-2.pem```
 <img width="1158" alt="截圖 2024-08-18 下午5 24 34" src="https://github.com/user-attachments/assets/adb44283-cc73-4a75-ada2-477c5821af14">
 
+### 安裝python
+先找有網路的VM做：
+```
+sudo yum install epel-release
+yum download python3
+```
+<img width="1133" alt="截圖 2024-08-18 下午6 05 01" src="https://github.com/user-attachments/assets/7a74fcec-12fc-4def-a4d0-1d4260fbde6f">
+
+把python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm傳到本機：
+
+
+
 ### 安裝pip
 1.Go to https://pypi.org/project/pip/#files
 2.Download and extract the archive file.
