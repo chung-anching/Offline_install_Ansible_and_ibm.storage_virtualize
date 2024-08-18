@@ -33,9 +33,13 @@ sudo rpm -Uvh python3-pip-9.0.3-24.el8.noarch.rpm
 1.Go to https://pypi.org/project/pip/#files  
 2.Download and extract the archive file.  
 3.Run **python setup.py install**  
-<img width="1611" alt="截圖 2024-08-18 下午5 32 16" src="https://github.com/user-attachments/assets/71d47e77-3215-40ed-a2a5-414e07144b13">
+<img width="1611" alt="截圖 2024-08-18 下午5 32 16" src="https://github.com/user-attachments/assets/71d47e77-3215-40ed-a2a5-414e07144b13">  
 
-
+解二：
+```
+wget https://files.pythonhosted.org/packages/f4/d5/a6c19dcbcbc267aca376558797f036d9bcdff344c9f785fe7d0fe9a5f2a7/setuptools-41.4.0.zip
+wget https://files.pythonhosted.org/packages/ce/ea/9b445176a65ae4ba22dce1d93e4b5fe182f953df71a145f557cffaffc1bf/pip-19.3.1.tar.gz
+```
 ### 下載對應檔案：
 https://pypi.org/project/ansible-core/#files
 **ansible_core-2.17.3.tar.gz**
