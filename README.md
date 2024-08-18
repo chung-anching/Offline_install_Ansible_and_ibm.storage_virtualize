@@ -5,7 +5,7 @@ Offline install Ansible and ibm.storage_virtualize
 
 <img width="1158" alt="截圖 2024-08-18 下午5 24 34" src="https://github.com/user-attachments/assets/adb44283-cc73-4a75-ada2-477c5821af14">
 
-### 安裝python（失敗）：
+### 安裝python（失敗，只有下載 python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm ）：
 先找有網路的VM做：
 ```
 sudo yum install epel-release
