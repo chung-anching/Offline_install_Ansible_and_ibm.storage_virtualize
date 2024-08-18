@@ -21,8 +21,8 @@ https://pypi.org/project/ansible-core/#files
 
 ### 上傳檔案：
 ```
-scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-10.pem -P 2223 -r /Users/zhonganqing/Downloads/pip-24.2.tar itzuser@162.133.113.15:
-scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-10.pem -P 2223 -r /Users/zhonganqing/Downloads/ansible_core-2.17.3.tar itzuser@162.133.113.15:
+scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r /Users/zhonganqing/Downloads/pip-24.2.tar itzuser@162.133.113.15:
+scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r /Users/zhonganqing/Downloads/ansible_core-2.17.3.tar itzuser@162.133.113.15:
 ```
 
 
