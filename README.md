@@ -12,8 +12,9 @@ yum download python3
 ```
 <img width="1133" alt="截圖 2024-08-18 下午6 05 01" src="https://github.com/user-attachments/assets/7a74fcec-12fc-4def-a4d0-1d4260fbde6f">
 
-把python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm傳到本機：
-
+**把python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm傳到本機：**
+scp -i /Users/zhonganqing/Downloads/pem_ibmcloudvsi_download-2.pem -P 2223 -r itzuser@162.133.113.15:/home/itzuser/pip-24.2/python36-3.6.8-39.module+el8.10.0+20784+edafcd43.x86_64.rpm /Users/zhonganqing/Downloads
+<img width="1176" alt="截圖 2024-08-18 下午6 10 02" src="https://github.com/user-attachments/assets/827377f2-9628-4943-bbea-57161e9f5455">
 
 
 ### 安裝pip
