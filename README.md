@@ -30,9 +30,9 @@ sudo rpm -Uvh python3-pip-9.0.3-24.el8.noarch.rpm
 
 
 ### 安裝pip
-1.Go to https://pypi.org/project/pip/#files /n
-2.Download and extract the archive file.
-3.Run **python setup.py install**
+1.Go to https://pypi.org/project/pip/#files  
+2.Download and extract the archive file.  
+3.Run **python setup.py install**  
 <img width="1611" alt="截圖 2024-08-18 下午5 32 16" src="https://github.com/user-attachments/assets/71d47e77-3215-40ed-a2a5-414e07144b13">
 
 
